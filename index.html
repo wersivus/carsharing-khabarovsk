@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="Каршеринг Хабаровска — удобный навигатор по сервисам аренды автомобилей, тарифам и условиям.">
+  <title>Каршеринг Хабаровска — навигатор</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Каршеринг-проект — главная">
+      <span class="brand-mark"><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M8 27.5 11.5 17a4 4 0 0 1 3.8-2.7h13.4a4 4 0 0 1 3.8 2.7L36 27.5v7a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2H14v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-7Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M13 24h18M15 19h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="14" cy="28.5" r="2" fill="currentColor"/><circle cx="30" cy="28.5" r="2" fill="currentColor"/></svg></span>
+      <span class="brand-text"><strong>каршеринг<span>·</span>проект</strong><small>ХАБАРОВСК</small></span>
+    </a>
+    <nav class="nav-links"><a href="#services">Сервисы</a><a href="#how">Как пользоваться</a><a href="#about">О проекте</a></nav>
+    <a class="top-cta" href="#services">Найти машину <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> ГОРОДСКОЙ НАВИГАТОР</div>
+        <h1>Хабаровск.<br>Твой город.<br><span>Твои маршруты.</span></h1>
+        <p class="hero-lead">Все о каршеринге в одном месте — сервисы, условия и полезные ссылки. Выбирай удобный вариант и отправляйся по делам.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#services">Исследовать сервисы <span>↘</span></a><a class="text-link" href="#how">Как это работает <span>→</span></a></div>
+        <div class="hero-note"><span class="note-icon">✦</span><span>Независимый навигатор<br><b>по каршерингу Хабаровска</b></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-grid"></div>
+        <div class="city-label label-top"><span class="label-dot"></span> KHABAROVSK / RU</div>
+        <svg class="route-map" viewBox="0 0 580 560" aria-hidden="true">
+          <path class="map-road road-a" d="M-20 350 C80 285 125 350 190 280 S280 180 345 240 440 300 600 160"/>
+          <path class="map-road road-b" d="M30 70 C110 135 160 100 220 170 S300 330 385 330 490 390 610 430"/>
+          <path class="map-road road-c" d="M-30 465 C70 420 140 465 190 400 S290 350 320 410 440 490 600 470"/>
+          <path class="map-road road-d" d="M110 -30 C140 90 100 160 160 240 S220 360 190 590"/>
+          <path class="map-road road-e" d="M400 -20 C350 70 390 140 350 210 S420 350 380 580"/>
+          <path class="route-highlight" d="M80 405 C145 365 160 300 228 285 S310 225 355 260 420 305 480 210"/>
+          <circle class="route-ring" cx="80" cy="405" r="11"/><circle class="route-ring" cx="480" cy="210" r="11"/>
+          <circle class="map-pin" cx="228" cy="285" r="8"/><circle class="map-pin" cx="355" cy="260" r="8"/>
+          <g transform="translate(235 302)"><rect class="map-tag" width="122" height="35" rx="10"/><text x="61" y="22" text-anchor="middle">ЦЕНТР ГОРОДА</text></g>
+          <g transform="translate(332 95)"><rect class="map-tag map-tag-dark" width="145" height="35" rx="10"/><text x="72" y="22" text-anchor="middle">ТВОЙ МАРШРУТ</text></g>
+        </svg>
+        <div class="car-card">
+          <div class="car-card-top"><span class="mini-badge">НАВИГАТОР</span><span class="three-dots">•••</span></div>
+          <div class="car-illustration">
+            <svg viewBox="0 0 360 135" role="img" aria-label="Иллюстрация автомобиля"><defs><linearGradient id="carPaint" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e7f3ff"/><stop offset=".48" stop-color="#94b9d5"/><stop offset="1" stop-color="#4d6f8e"/></linearGradient><linearGradient id="glass" x1="0" x2="1"><stop stop-color="#1e3349"/><stop offset="1" stop-color="#567b96"/></linearGradient></defs><ellipse cx="180" cy="113" rx="142" ry="13" fill="#03070d" opacity=".55"/><path d="M43 82 61 58q7-11 22-14l43-9q14-3 25-3h53q18 1 29 13l24 27 37 10q10 3 12 14v12H31V94q1-9 12-12Z" fill="url(#carPaint)" stroke="#e6f3ff" stroke-opacity=".55" stroke-width="2"/><path d="m83 55 44-10q12-3 25-3h25v36H69Z" fill="url(#glass)"/><path d="M185 42h19q14 1 22 11l20 25h-61Z" fill="url(#glass)"/><path d="M184 42v37M69 79h175" stroke="#d8e9f7" stroke-opacity=".7" stroke-width="2"/><path d="M34 91h25m237 0h23" stroke="#c9e8ff" stroke-width="5" stroke-linecap="round"/><rect x="42" y="85" width="17" height="6" rx="3" fill="#fff4c7"/><rect x="293" y="85" width="18" height="6" rx="3" fill="#ff786b"/><circle cx="85" cy="104" r="22" fill="#101722"/><circle cx="85" cy="104" r="12" fill="#71869b"/><circle cx="85" cy="104" r="5" fill="#d5e3ef"/><circle cx="264" cy="104" r="22" fill="#101722"/><circle cx="264" cy="104" r="12" fill="#71869b"/><circle cx="264" cy="104" r="5" fill="#d5e3ef"/></svg>
+          </div>
+          <div class="car-card-bottom"><div><strong>Свобода движения</strong><small>Начинается с выбора</small></div><span class="arrow-circle">↗</span></div>
+        </div>
+        <div class="floating-stat"><span class="stat-icon">⌖</span><div><b>Один город</b><small>Все варианты рядом</small></div></div>
+      </div>
+      <div class="hero-bottom"><span>01 — НАЙДИ</span><span class="hero-bottom-line"></span><span>02 — СРАВНИ</span><span class="hero-bottom-line"></span><span>03 — ПОЕЗЖАЙ</span></div>
+    </section>
+
+    <section class="quick-strip">
+      <div class="quick-item"><span class="quick-icon">⌕</span><div><b>Ищи проще</b><small>Собрали полезное в одном месте</small></div></div>
+      <div class="quick-item"><span class="quick-icon">↔</span><div><b>Сравнивай условия</b><small>Проверяй детали перед поездкой</small></div></div>
+      <div class="quick-item"><span class="quick-icon">↗</span><div><b>Переходи к сервису</b><small>Официальные источники и приложения</small></div></div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> КАТАЛОГ</div><h2>Найди свой <span>сервис.</span></h2><p>Изучи варианты и уточни, какие услуги доступны в Хабаровске.</p></div><div class="catalog-count"><strong id="resultCount">3</strong><span>карточки<br>в каталоге</span></div></div>
+      <div class="notice"><span class="notice-icon">i</span><p><b>Важно:</b> каталог — навигационный проект, а не оператор аренды. Доступность каршеринга в Хабаровске, зоны поездок, цены и условия нужно проверять у самих компаний. Карточки ниже — заготовки для заполнения проверенными данными.</p></div>
+      <div class="filter-row">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Поиск по сервисам..." aria-label="Поиск по сервисам"></label>
+        <div class="filter-pills" role="group" aria-label="Фильтр карточек"><button class="filter-pill active" data-filter="all">Все варианты</button><button class="filter-pill" data-filter="official">Официальные ссылки</button><button class="filter-pill" data-filter="check">Нужно проверить</button></div>
+      </div>
+      <div class="service-grid" id="serviceGrid">
+        <article class="service-card" data-category="check" data-search="проверить локальные сервисы хабаровск каршеринг">
+          <div class="service-card-head"><div class="service-logo logo-lime">К</div><span class="status status-check"><i></i> Проверить</span></div>
+          <div class="service-card-body"><p class="card-kicker">КАРТОЧКА СЕРВИСА 01</p><h3>Локальные сервисы</h3><p class="service-desc">Добавь сюда местные компании, которые действительно предоставляют краткосрочную аренду авто в Хабаровске.</p><div class="tag-row"><span>Хабаровск</span><span>Условия аренды</span></div></div>
+          <div class="service-card-foot"><span class="foot-note">Данные требуют проверки</span><button class="card-action disabled" type="button" aria-label="Ссылка не добавлена" title="Добавьте проверенную ссылку">↗</button></div>
+        </article>
+        <article class="service-card" data-category="check" data-search="федеральные операторы каршеринг хабаровск доступность">
+          <div class="service-card-head"><div class="service-logo logo-blue">↗</div><span class="status status-check"><i></i> Проверить</span></div>
+          <div class="service-card-body"><p class="card-kicker">КАРТОЧКА СЕРВИСА 02</p><h3>Федеральные операторы</h3><p class="service-desc">Проверь, работают ли крупные операторы в городе, и добавь ссылку только после подтверждения зоны обслуживания.</p><div class="tag-row"><span>Зона работы</span><span>Приложение</span></div></div>
+          <div class="service-card-foot"><span class="foot-note">Проверь географию</span><button class="card-action disabled" type="button" aria-label="Ссылка не добавлена" title="Добавьте проверенную ссылку">↗</button></div>
+        </article>
+        <article class="service-card" data-category="official" data-search="альтернативы аренда авто посуточно прокат хабаровск">
+          <div class="service-card-head"><div class="service-logo logo-purple">+</div><span class="status status-neutral"><i></i> Альтернатива</span></div>
+          <div class="service-card-body"><p class="card-kicker">КАРТОЧКА СЕРВИСА 03</p><h3>Прокат автомобилей</h3><p class="service-desc">Можно добавить проверенные компании посуточной аренды — это не каршеринг, но полезная альтернатива для поездок.</p><div class="tag-row"><span>Посуточно</span><span>Сравнить условия</span></div></div>
+          <div class="service-card-foot"><span class="foot-note">Добавь официальный сайт</span><button class="card-action disabled" type="button" aria-label="Ссылка не добавлена" title="Добавьте проверенную ссылку">↗</button></div>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>Ничего не найдено. Попробуй изменить запрос.</div>
+      <div class="editor-tip"><span>✦</span><div><b>Это стартовый шаблон</b><p>В каталоге намеренно нет выдуманных компаний и тарифов. Когда проверишь реальные сервисы, можно заменить названия, описания и добавить официальные ссылки.</p></div></div>
+    </section>
+
+    <section class="map-section" id="how">
+      <div class="map-copy"><div class="eyebrow"><span class="eyebrow-line"></span> КАК ПОЛЬЗОВАТЬСЯ</div><h2>Меньше поиска.<br><span>Больше города.</span></h2><p>Навигатор помогает собрать информацию в одном месте. Перед регистрацией и поездкой всегда сверяй актуальные тарифы, требования к водителю и территорию обслуживания на сайте выбранной компании.</p><div class="steps"><div class="step"><span>01</span><div><b>Выбери вариант</b><small>Посмотри доступные категории и сервисы.</small></div></div><div class="step"><span>02</span><div><b>Проверь условия</b><small>Возраст, стаж, цены и ограничения могут меняться.</small></div></div><div class="step"><span>03</span><div><b>Перейди к оператору</b><small>Регистрация и бронирование выполняются у компании.</small></div></div></div></div>
+      <div class="map-visual"><div class="map-ui-top"><span class="map-live"><i></i> СХЕМА НАВИГАЦИИ</span><span class="map-plus">＋</span></div><div class="abstract-map"><svg viewBox="0 0 540 430" aria-label="Декоративная схема карты города"><path d="M-20 90 150 170 225 120 340 185 560 80M-20 270 105 210 190 270 320 235 560 320M80 -20 150 110 135 230 220 460M280 -20 260 90 335 160 310 260 400 460M460 -20 390 100 430 205 390 330 470 460" fill="none" stroke="#354251" stroke-width="10" stroke-linecap="round"/><path d="M-20 90 150 170 225 120 340 185 560 80M-20 270 105 210 190 270 320 235 560 320M80 -20 150 110 135 230 220 460M280 -20 260 90 335 160 310 260 400 460M460 -20 390 100 430 205 390 330 470 460" fill="none" stroke="#24303d" stroke-width="3" stroke-linecap="round"/><path d="M65 350 C120 290 115 225 190 225 S290 145 345 195 400 250 475 135" fill="none" stroke="#b7f36b" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10"/><circle cx="65" cy="350" r="10" fill="#b7f36b" stroke="#101720" stroke-width="5"/><circle cx="475" cy="135" r="10" fill="#b7f36b" stroke="#101720" stroke-width="5"/><g transform="translate(175 188)"><rect width="138" height="36" rx="12" fill="#b7f36b"/><text x="69" y="23" fill="#15200b" font-size="11" font-weight="800" text-anchor="middle">ТОЧКА МАРШРУТА</text></g><g transform="translate(330 270)"><rect width="132" height="32" rx="10" fill="#202c39" stroke="#40505f"/><text x="66" y="20" fill="#dce7ef" font-size="10" text-anchor="middle">КАРТА В РАЗРАБОТКЕ</text></g></svg></div><div class="map-caption"><div class="map-caption-icon">⌖</div><div><b>Хабаровск, Россия</b><small>Схематичная иллюстрация — не карта автомобилей в реальном времени</small></div></div></div>
+    </section>
+
+    <section class="section about-section" id="about"><div class="about-card"><div class="about-symbol">✳</div><div><div class="eyebrow"><span class="eyebrow-line"></span> О ПРОЕКТЕ</div><h2>Городской гид, который <span>экономит время.</span></h2><p>«Каршеринг·проект» — независимый навигатор по вариантам городской мобильности в Хабаровске. Мы не сдаём автомобили в аренду и не принимаем бронирования. Информация должна проверяться по официальным источникам.</p></div><a href="mailto:hello@каршеринг-проект.рф" class="about-contact">Связаться <span>↗</span></a></div></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#"><span class="brand-mark"><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M8 27.5 11.5 17a4 4 0 0 1 3.8-2.7h13.4a4 4 0 0 1 3.8 2.7L36 27.5v7a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2H14v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-7Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M13 24h18M15 19h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></span><span class="brand-text"><strong>каршеринг<span>·</span>проект</strong><small>ХАБАРОВСК</small></span></a><p>Навигатор по городской мобильности</p><span class="copyright">© <span id="year"></span> · Информация может меняться</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
